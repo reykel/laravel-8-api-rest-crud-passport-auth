@@ -1,0 +1,15 @@
++----------+-------------------------------------+-----------------------------------+
+| METHOD   | URI                                 | NAME                              |
++----------+-------------------------------------+-----------------------------------+
+| POST     | api/confirm-password                | json-api-auth.password.confirm    |
+| POST     | api/email/verification-notification | json-api-auth.verification.send   |
+| POST     | api/forgot-password                 | json-api-auth.password.email      |
+| POST     | api/login                           | json-api-auth.login               |
+| GET|HEAD | api/logout                          | json-api-auth.logout              |
+| POST     | api/register                        | json-api-auth.register            |
+| POST     | api/reset-password                  | json-api-auth.password.update     |
+| GET|HEAD | api/verify-email/{id}/{hash}        | json-api-auth.verification.verify |
++----------+-------------------------------------+-----------------------------------+
+
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYzYxMjA2NDE2YjkyOGYxOTY0OWViODA3ZTFhMTY4OTI4MzI2NjE3N2UwZDhmZTNiOTViYzI4ZjM5MWNjNjEwZDQzYmE0YmQzNjI0NWI5ZjMiLCJpYXQiOjE2NTA4NDU3NTQuOTAxODE1LCJuYmYiOjE2NTA4NDU3NTQuOTAxODIxLCJleHAiOjE2ODIzODE3NTQuODE2NjExLCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.kuIZkTWEhNXIQy6EEgPq0cGh3rYpXM5XZM_67V4n13XDTbSmCzIG7L7xAvYyCKBCrGcN_DmlgT5JP0UPC5Fko1IugQt9lVHXN7PyqNqnGi1arHD2Tyhje8vA9u2N4dz5zK9o8FQ377mW586Ppqsuj9gxxLmAyZ8DLR0SXZTn0FNO_YG3aRTgyFZS-9GrRSIDAhH2r-mO4Tzm0r90BhKhhNA81QpyrbG3XS4Hsxqu6Iweh04a9hQgK9brxwcs_rObNxarPvUOCaCRI9KlTH--gZmOEj22XYdpQVRi5mmNYqfU1PJjtRDKm9PStMf-xoxE9vTzOAqzmoM1DUi2Stp5QShXxfXHcXhTiXV36AtPlRcYnUYtpMO_lhbozvRw_H7bYWsgrc0Y-Be9_tSbUHBj-hl8AjZk9gAfyyV37VlHBN5wejcycmhjKV4JCabga1E13QRRpv4UoKMb-2LcGwBh3LPyUgnQOu-tnYSZ0uNtVMsjK6pJF_8CaU08tpiMirUAvkafsihiRX5HFJn_Ysbaa46CaWVV3zRsMibNelr_p-Z-LrvbsMsjzDiB-6fNusnXj1llgiOAD7pyWOW0XkWKAcHYwIcKl6PZP4D7xhOuIZ0on3fSJyOE-1zi-BabtU_gotPClTbidkaXk63UvT5cK1MDeqH8Cwpe-g0Ub7wvxIc
+
