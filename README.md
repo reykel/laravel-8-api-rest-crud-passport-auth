@@ -28,7 +28,11 @@ git clone https://github.com/reykel/laravel-8-api-rest-crud-passport-auth.git
 
     php artisan passport:install
 
-<h2>Step 6: Run server</h2>  
+<h2>Step 6: Set the application key</h2>  
+
+    php artisan key:generate
+
+<h2>Step 7: Run server</h2>  
 
     php artisan serve
 
