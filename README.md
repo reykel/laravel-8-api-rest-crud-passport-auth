@@ -6,6 +6,15 @@ git clone https://github.com/reykel/laravel-8-api-rest-crud-passport-auth.git
 
 <h2>Step 2: Configure your database from .env file</h2> 
 
+    DB_HOST=127.0.0.1
+
+    DB_PORT=3306
+    
+    DB_DATABASE=your_DB_name
+    
+    DB_USERNAME=your_user_name
+    
+    DB_PASSWORD=your_password
 
 <h2>Step 3: composer install</h2> 
     
